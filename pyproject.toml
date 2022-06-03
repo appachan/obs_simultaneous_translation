@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "obs_simultaneous_translation"
+version = "0.1.0"
+description = ""
+authors = ["appachan"]
+license = "mit"
+
+[tool.poetry.dependencies]
+python = "^3.10,<3.11"
+vosk = "0.3.32"
+sounddevice = "^0.4.4"
+obs-websocket-py = "^0.5.3"
+argostranslate = "^1.7.0"
+
+[tool.poetry.dev-dependencies]
+ipython = "^8.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
